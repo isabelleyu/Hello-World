@@ -88,7 +88,108 @@ function closeNav() {
     </head>
 </html>
 
+
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+</style>
+<body>
+
+<!-- Header -->
 <div class="header">
- <center> <h1>F a s h i o n</h1></center>
- <center> <p>What to wear. </p></center>
+  <h1>F a s h i o n </h1>
+  <p>Welcome to my closet.</p>
 </div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src = "https://lh4.googleusercontent.com/z7KFdZ4xTZjW58NIFfbTaHGLyMX4WxRofV1TKcVK5VaJgSlnB3mPwn-raEeAjAP61bkQu9iwD8g" width="300" height= "300" />
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/falls2.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+    <img src="/w3images/nature.jpg" style="width:100%">
+    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+   <img src = "https://lh3.googleusercontent.com/nxYiTh8MuC44KQIdp5VIcE_Imr0ULAE6CVNBeuvmgWmj4LqcUZiYLExRwJjrcQoGVn4cjGqs30s" width="300" height="300" /> 
+    <img src="/w3images/ocean.jpg" style="width:100%">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/mountainskies.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+   <img src = "https://lh5.googleusercontent.com/ekyy8Tw1piThzqiILZdLakH2Tpwc44vnUhdCeQFoRhB33AoliK-FWTldzQ6_mTSOuzEzraKF79I" width="300" height="300" />
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/falls2.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+    <img src="/w3images/nature.jpg" style="width:100%">
+    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+   <img src = "https://lh4.googleusercontent.com/m57qjsiB2g6D8xbXhpu0eJSOxs6tYKW5_oFSe6Gnh739NecNCimFM-WSXp3WUKSAVBJDBO27Szs" width="300" height="300" />
+    <img src="/w3images/ocean.jpg" style="width:100%">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/mountainskies.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
